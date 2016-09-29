@@ -24,11 +24,6 @@ default_app_id: "<%= @default_app_id %>"
 server.basePath: "<%= @default_route %>"
 <% end %>
 
-<% if @default_app_id %>
-# The default application to load.
-default_app_id: "<%= @default_app_id %>"
-<% end %>
-
 # Time in milliseconds to wait for responses from the back end or elasticsearch.
 # This must be > 0
 request_timeout: 60000
